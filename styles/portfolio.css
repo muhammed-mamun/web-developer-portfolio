@@ -90,7 +90,7 @@ main {
 
 /* about related style */
 .about {
-  margin: 130px 0;
+  margin: 130px 150px;
   min-height: 550px;
   border-radius: 10px;
   background: #fff8f3;
@@ -112,4 +112,12 @@ main {
 }
 .about-info {
   text-align: center;
+}
+
+/* what i do section related style*/
+.what-i-do-section {
+  margin-top: -200px;
+}
+#what-i-do {
+  padding: 30px 150px;
 }
