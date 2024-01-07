@@ -45,16 +45,16 @@ nav a {
 }
 
 /* header related style */
+
 .header {
   background-color: #fff8f3;
   background-image: url("../images/header_bg.png");
   background-repeat: no-repeat;
   background-position: bottom right;
 }
-
 .banner {
-  padding: 30px 30px 0 100px;
   display: flex;
+  padding: 30px 30px 0 150px;
   align-items: center;
   justify-content: space-between;
 }
@@ -82,6 +82,11 @@ nav a {
   font-weight: 400;
   line-height: 30px;
 }
+/* main section style */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 
 /* about related style */
 .about {
@@ -100,4 +105,11 @@ nav a {
   font-size: 18px;
   text-align: center;
   color: #757575;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-between;
+}
+.about-info {
+  text-align: center;
 }
